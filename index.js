@@ -25,7 +25,7 @@ function starting(){
         box.innerText="";
         box.style.pointerEvents="all";
         box.classList.remove("win");
-        
+         
     })
     newGameBtn.classList.remove("active");
     gameInfo.innerText=`Current Player - ${currentPlayer}`;
